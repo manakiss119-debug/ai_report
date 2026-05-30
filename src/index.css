@@ -1,0 +1,46 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+  
+  --color-brand-primary: #191f28;
+  --color-brand-secondary: #4e5968;
+  --color-brand-blue: #3182f6;
+  --color-brand-blue-hover: #1b64da;
+  --color-brand-blue-light: #e8f3ff;
+  --color-brand-bg: #f2f4f6;
+  --color-brand-border: #e5e8eb;
+  
+  --animate-pulse-slow: pulse 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Custom scrollbar hiding */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Custom transitions and styles */
+html {
+  background-color: #f2f4f6;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-brand-primary);
+  background-color: #f2f4f6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Subtle glassmorphism */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}

@@ -1,0 +1,6 @@
+{
+  "name": "가상증강현실 응용연구 과제 - 대기오염물질 총량관리 업무 매뉴얼",
+  "description": "한국환경공단 수도권서부환경본부의 대기오염물질 총량관리 업무 매뉴얼 및 가이드라인을 제공하는 모바일 친화형 시스템입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
